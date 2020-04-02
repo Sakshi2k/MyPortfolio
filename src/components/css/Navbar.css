@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #3E3D3D;
+    display: flex;
+    height: 50px;  
+}
+
+#nav-left {
+    width: 45%;
+}
+
+.nav-right li{
+    color: black;
+    font-family: cursive;
+    float: left;
+    list-style: none;
+    padding-left: 30px;       
+}
+
+.nav-right a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.nav-right a:hover{
+    color: rgb(238, 238, 238);
+    background-color: rgb(51, 50, 50);
+    font-size: 10px;
+}
+
+@media screen and (max-width:100px) {
+    
+    #nav-left{
+        width: 0%;
+    }
+    
+    .nav-right {
+      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }

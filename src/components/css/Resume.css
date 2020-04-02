@@ -1,0 +1,23 @@
+#resume{
+    text-align: center;
+}
+
+#resume > img{
+    padding: 10px;
+    width: 50%;
+    height: 780px;
+}
+
+#resume a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+}
+
+#resume a:hover{
+    box-sizing: border-box;
+    font-size: 18px;
+}
