@@ -1,5 +1,9 @@
-/* #girl-div{
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 0%;
-} */
+.main-content{
+    padding-top: 10px;
+    background-color: #58585810;
+}
+
+#girl{
+    width: 800px;
+    height: 600px;  
+} 

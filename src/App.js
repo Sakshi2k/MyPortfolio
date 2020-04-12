@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-      <div>
+      <div id="app">
             <header className="navbar">
             <div id="nav-left"></div>
             <div id="nav-right">
